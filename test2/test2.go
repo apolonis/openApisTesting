@@ -31,7 +31,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	//fmt.Println(string(responseData))
+	fmt.Println(string(responseData))
 	var responseObject Response
 	json.Unmarshal(responseData, &responseObject)
 
